@@ -1,6 +1,11 @@
 % Yenting Lin, Google, 2016/10/26
 % Pilot MCMC to run in Google Cloud Platform.
 
+% add path
+path(path, '/home/yenting/Dropbox/Sync_matlab/IEEE_CI/dataset')
+path(path, '/home/yenting/Dropbox/Sync_matlab/IEEE_CI/cost_function')
+path(path, '/home/yenting/Dropbox/Sync_matlab/IEEE_CI/toolbox')
+
 % define parameters
 num_obj = 2; 
 delta = 5* 1e-3; 
