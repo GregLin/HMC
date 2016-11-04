@@ -3,10 +3,10 @@
 
 % define parameters
 num_obj = 2; 
-delta = 2* 1e-2; 
-Tau = 50;
-max_iter = 1200;
-filename = string('no_noise_20_TX_RX_2_obj_result.txt');
+delta = 5* 1e-3; 
+Tau = 20;
+max_iter = 20;
+filename = string('debug_result.txt');
 
 % load data
 load('dataset_20_TX_RX.mat','-mat');
